@@ -1,0 +1,95 @@
+*,
+li,
+ul {
+  text-align: none;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+body, li, ul, a{
+    color:#222222;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.superinfo-bg{
+    background: #122ab2;
+    color: #fff;
+}
+.superinfo a{
+    color: #fff;
+}
+.superinfo a, .superinfo p{
+    margin: 10px 10px 10px 10px;
+}
+.cabecalho-bg{
+    background: #2c70ff;
+}
+.menu{
+    align-items: center;
+    padding: 10px 0;
+}
+.menu a{
+    color: #fff;
+}
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav{
+    display: flex;
+}
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    margin: 0 10px;
+    padding: 10px;
+    /* transition: 0.5s; */
+}
+.menu-nav a:hover{
+    color: #122ab2;
+}
+
+.introducao{
+    font-size: 3em;
+    line-height: 1;
+    padding: 60px 10px;
+}
+.sobre  {
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    padding: 60px 10px;
+    justify-content: initial;
+    flex-wrap: nowrap;
+}
+.sobre-info{
+    flex: 2;
+}
+
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+.sobre-img{
+    
+}
